@@ -1,0 +1,210 @@
+body {
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    padding-left: 330px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #343a40;
+    z-index: 1000;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+    text-justify: auto;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+section {
+    text-align: center;
+    padding: 40px 10px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+section .skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    width: 80px;
+    height: 80px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.skill:hover {
+    background-color: #0056b3;
+}
+
+section.projects {
+    background-color: #ffc107;
+    color: #343a40;
+}
+
+.project-card .card .view-button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    cursor:pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease,color 0.3s ease,transform 0.2s ease;
+    align-items: center;
+}
+
+.project-card .card .view-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.project-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card .card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+section.experience {
+    background-color: #6c757d;
+    color: #fff;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+section.experience .job {
+    margin-bottom: 30px;
+}
+
+section.education {
+    background-color: #28a745;
+    color: #fff;
+}
+
+section.education .degree {
+    margin-bottom: 30px;
+}
+
+section.contact {
+    background-color: #28a745;
+    color: black;
+}
+
+section.contact p {
+    margin: 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+section.about p {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+header img {
+    float: right;
+    border-radius: 15%;
+    margin-right: 150px;
+    margin-top: -15px;
+}
+
+.project-card.hover{
+    background: linear-gradient(to right,#090909,#050505);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+section.contact a {
+    display: inline-flex;
+    margin-right: 15px;
+    text-decoration: none;
+    text-justify: center;
+    align-items: center;
+}
+a{
+    color: #090909;
+}
+.contact-card.hover{
+    background: linear-gradient(to right,#090909,#050505);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.contact{
+    padding: 10px;
+}
+
+section.contact a:hover {
+    background: #259a40;
+}
+
+section.about {
+    background-image: url(sky.jpg);
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 100% 100%;
+    color: white;
+}
